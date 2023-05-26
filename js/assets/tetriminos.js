@@ -44,17 +44,25 @@ export const tetriminos = [
             [1, 1, 0]
         ],
         color: "green"
-    }
+    },
   
     // T Tetrimino
-    [
-      [0, 1, 0],
-      [1, 1, 1]
-    ],
+    {
+        shape:
+        [
+            [0, 1, 0],
+            [1, 1, 1]
+        ],
+        color: "purple"
+    },
   
     // Z Tetrimino
-    [
-      [1, 1, 0],
-      [0, 1, 1]
-    ]
+    {
+        shape:
+        [
+            [1, 1, 0],
+            [0, 1, 1]
+        ],
+        color: "red"
+    }
   ];
